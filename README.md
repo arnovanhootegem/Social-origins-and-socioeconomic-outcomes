@@ -4,15 +4,16 @@ R scripts for paper on the Social origins and socio-economic outcomes by Arno Va
 
 # My R Scripts
 
-This repository contains a collection of R scripts I've made for the paper "Social origins and socioeconomic outcomes: A combined twin and adoption study", written by Arno Van Hootegem, Adrian Farner Rogne, Caroline Tveter Cros, Ole Røgeberg and Torkild Hovde Lyngstad. 
+This repository contains a collection of R scripts that I and Torkild Hovde Lyngstad have made for the paper "Social origins and socioeconomic outcomes: A combined twin and adoption study", written by Arno Van Hootegem, Adrian Farner Rogne, Caroline Tveter Cros, Ole Røgeberg and Torkild Hovde Lyngstad. 
 It identifies South Korean adoptees and children of twins based on Norwegian registry data, which are then analysed using an adoption design and Multiple-Children-of-Twin models to estimate the how much of the intergenerational transmision of socioeconomic status is social.
 
 # Scripts
 
-- `Data preperation.R`: Prepares and merges data that is used for the analysis
-- `Coding Class schemes.R`: Codes all of the class schemes needed for the analyses
-- `Twin analyses.R`: Conducts all metric, ordinal and binary twin analyses
-- `Descriptives.R`: Generates descriptive statistics for the full population, monozygotic and dizygotic twins
+- `Socio-economic data MCoT.R`: Prepares socioeconomic data for the twins dataset
+- `Family linkages MCoT.R`: Prepares family linkages for the twins dataset
+- `MCoT function.R`: Creates a function that is used for the Mutiple-Children-of-Twin (MCoT) analysis
+- `MCoT_analysis.R`: Conducts the Multiple-Children-of-Twin analyses
+- `Adoption design.R`: Prepares the adoptees data, merges socioeconomic data and conducts the analyses for the adoption design
 
 # Data
 
